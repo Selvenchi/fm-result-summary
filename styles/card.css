@@ -43,6 +43,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  width:7rem;
   aspect-ratio: 1;
   background-image: linear-gradient(var(--clr-violet-blue), var(--clr-persian-blue));
   border-radius: 50%;
@@ -163,6 +164,8 @@
   .result-card {
     flex-direction: column;
     box-shadow: none;
+    transform: translate(-50%, 0);
+    top:0;
   }
 
   .purple-card,
