@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Hanken Grotesk;
+}
+
+:root {
+  /* PRIMARY */
+  --clr-light-red: hsla(0, 100%, 67%, 0.075);
+  --clr-orangey-yellow: hsl(39, 100%, 56%, 0.075);
+  --clr-green-teal: hsl(166, 100%, 37%, 0.075);
+  --clr-cobalt-blue: hsl(234, 85%, 45%, 0.075);
+
+  /* GRADIENTS */
+  /* background */
+  --clr-light-slate-blue: hsl(252, 100%, 67%); 
+  --clr-light-royal-blue: hsl(241, 81%, 54%);
+  /* circle */
+  --clr-violet-blue: hsla(256, 72%, 46%, 1);
+  --clr-persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* NEUTRAL */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-pale-blue: hsla(222, 100%, 96%, 0.6);
+  --clr-light-lavender: hsla(241, 100%, 89%, 0.329);
+  --clr-dark-grey-blue: hsl(224, 30%, 27%);
+
+}
